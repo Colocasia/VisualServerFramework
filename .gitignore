@@ -30,3 +30,5 @@
 *.patch
 *.gcno
 *.vs
+*.aps
+Debug/
