@@ -10,6 +10,9 @@
     <Filter Include="Res">
       <UniqueIdentifier>{8e7d81ff-e5c7-45e1-b004-ded57adcfbfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{25d9e196-942c-4b00-9df1-6265d0af03e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Source\Component\WindowComponent\Res\WindowComponent.rc2">
@@ -23,19 +26,19 @@
     <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Src\WindowComponent.h">
       <Filter>Src</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Source\stdafx.h">
-      <Filter>Src</Filter>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Source\targetver.h">
-      <Filter>Src</Filter>
+    <ClInclude Include="targetver.h">
+      <Filter>stdafx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Source\Component\WindowComponent\Src\WindowComponent.cpp">
       <Filter>Src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Source\stdafx.cpp">
-      <Filter>Src</Filter>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
