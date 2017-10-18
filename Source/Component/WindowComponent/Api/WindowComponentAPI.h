@@ -10,7 +10,7 @@
 #ifndef __VISUAL_WINDOW_API_H__
 #define __VISUAL_WINDOW_API_H__
 
-#ifdef VISUAL_WINDOW_API_EXPORTS
+#ifdef WINDOW_COMPONENT_API_EXPORTS
 #define VISUAL_WINDOW_API __declspec(dllexport)
 #else
 #define VISUAL_WINDOW_API __declspec(dllimport)
@@ -33,13 +33,13 @@ extern "C"
 {
 #endif
 
-    VISUAL_WINDOW_API int PASCAL VisualWindow_Init(IN int nType = 0);
+    VISUAL_WINDOW_API int PASCAL WindowComponent_Init(IN int nType = 0);
 
-    VISUAL_WINDOW_API int PASCAL VisualWindow_UnInit(void);
+    VISUAL_WINDOW_API int PASCAL WindowComponent_UnInit(void);
 
-    VISUAL_WINDOW_API long PASCAL VisualWindow_CreateInstance(IN const int nFlag);
+    VISUAL_WINDOW_API long PASCAL WindowComponent_CreateInstance(IN const int nFlag);
 
-    VISUAL_WINDOW_API int PASCAL VisualWindow_DestroyInstance(IN long lInstace);
+    VISUAL_WINDOW_API int PASCAL WindowComponent_DestroyInstance(IN long lInstace);
 
 #ifdef __cplusplus
 };

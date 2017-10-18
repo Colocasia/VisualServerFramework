@@ -3,13 +3,13 @@
 
 // VisualMainWindow 对话框
 
-class VisualMainWindow : public CDialog
+class MainWindow : public CDialog
 {
-	DECLARE_DYNAMIC(VisualMainWindow)
+	DECLARE_DYNAMIC(MainWindow)
 
 public:
-	VisualMainWindow(CWnd* pParent = NULL);   // 标准构造函数
-	virtual ~VisualMainWindow();
+	MainWindow(CWnd* pParent = NULL);   // 标准构造函数
+	virtual ~MainWindow();
 
 // 对话框数据
 	enum { IDD = IDD_DIALOG1 };

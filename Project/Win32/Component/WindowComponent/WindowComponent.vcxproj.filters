@@ -20,9 +20,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Src\Resource.h">
-      <Filter>Src</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Src\WindowComponent.h">
       <Filter>Src</Filter>
     </ClInclude>
@@ -32,6 +29,15 @@
     <ClInclude Include="targetver.h">
       <Filter>stdafx</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Api\WindowComponentAPI.h">
+      <Filter>Api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Src\MainWindow.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\Component\WindowComponent\Res\resource.h">
+      <Filter>Res</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Source\Component\WindowComponent\Src\WindowComponent.cpp">
@@ -39,6 +45,9 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\Component\WindowComponent\Src\MainWindow.cpp">
+      <Filter>Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
